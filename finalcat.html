@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ST PAUL'S UNIVERSITY FORM</title>
+    
+    
+</head>
+<body>
+    <div class="main">
+        <h1 style="text-align: center;">ADMISSION FORM<br><br>FILL FORM </h1>
+    <form action="http://localhost/php_work/finalcat.php" method="POST">
+        <h5>First name:</h4>
+        <input type="text" name="first_name"><br />
+        <br />
+        <h5>Last name:</h4>
+        <input type="text" name="last_name"><br />
+        <br />
+        <h5>Phone number:</h4>
+        <input type="tel" name="phone_number"><br />
+        <br />
+        <h5>Email:</h4>
+        <input type="email" name="email" ><br>
+        <br />
+        <h5>country:</h4>
+        <select name="country"><br />
+            <option value="usa">USA</option>
+            <option value="kenya">Kenya</option>
+            <option value="uganda">Uganda</option>
+            <option value="ethiopia">Ethiopia</option>
+            <option value="egypt">Egypt</option>
+            <option value="dr congo">Dr-congo</option>
+            <option value="tanzania">Tanzania</option>
+            <option value="tunsia">Tunisia</option>
+            <option value="algeria">Algeria</option>
+            <option value="sudan">Sudan</option>
+            <option value="morocco">Morocco</option>
+            <option value="angola">Angola</option>
+            <option value="mozambique">Mozambique</option>
+            <option value="australia">Australia</option>
+            <option value="madagascar">Madagascar</option>
+            <option value="cameroon">Cameroon</option>
+            <option value="lesotho">Lesotho</option>
+            <option value="S.Sudan">S.Sudan</option>
+            <option value="comoros">Comoros</option>
+            <option value="italy">Italy</option>
+            <option value="portugal">Portugal</option>
+        </select><br />
+        <br />
+        <h5>county of birth:</h4>
+        <input type="text" name="county" placeholder="county of birth"><br />
+        <br />
+        <h5>ID/passport:</h4>
+        <input type="text" name="id" placeholder="ID/passport number"><br />
+        <br />
+        <h5>Date of birth:</h4>
+        <input type="date" name="date" placeholder="Date of birth"><br />
+        <br />
+        <h5>Your gender:</h4>
+        <input type="radio" id="female" name="gender" value="FEMALE">
+        <label for="female">Female</label>
+        <input type="radio" id="male" name="gender" value="MALE">
+        <label for="male">Male</label>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label>
+        <br />
+        <h5>Your level of education:</h4>
+        <input type="checkbox" id="primary" name="level" value="primary">
+        <label for="primary"> Primary</label>
+        <input type="checkbox" id="secondary" name="level" value="secondary">
+        <label for="secondary"> Secondary</label>
+        <input type="checkbox" id="undergraduate" name="level" value="undergraduate">
+        <label for="undergraduate"> Undergraduate</label>
+        <input type="checkbox" id="other" name="level" value="other">
+        <label for="other"> Others</label>
+
+        
+        <h5>Course:</h4>
+        <input type="text" name="course">
+       
+        <input type="submit">
+    </form>
+</div>
+</body>
+</html>
